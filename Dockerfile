@@ -50,7 +50,7 @@ RUN apt-get update \
 
 
 # Install Akaunting
-ENV AKAUNTING_VERSION 1.1.13
+ENV AKAUNTING_VERSION 2.0.26
 
 WORKDIR /tmp/
 RUN mkdir -p /var/www/akaunting/root \
